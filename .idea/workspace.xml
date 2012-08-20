@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a26ee61b-4e43-485d-8af9-ebf0487a3b90" name="Default" comment="" />
+    <list default="true" id="a26ee61b-4e43-485d-8af9-ebf0487a3b90" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/racetrack/Race.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/racetrack/Race.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/racetrack/Registration.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/racetrack/Registration.groovy" />
+    </list>
     <ignored path="racetrack.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
@@ -59,13 +64,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Registration.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Registration.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/racetrack/Registration.groovy">
           <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="4" selection-start="40" selection-end="40" vertical-scroll-proportion="0.07445256">
+            <state line="19" column="2" selection-start="286" selection-end="286" vertical-scroll-proportion="-7.177778">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Race.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/racetrack/Race.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="20" selection-start="204" selection-end="204" vertical-scroll-proportion="0.32262772">
               <folding />
             </state>
           </provider>
@@ -78,9 +95,13 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/grails-app/domain/racetrack/Registration.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/racetrack/Race.groovy" />
       </list>
     </option>
@@ -91,7 +112,7 @@
     <option name="width" value="944" />
     <option name="height" value="913" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -253,11 +274,23 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
   </component>
   <component name="RunManager" selected="Grails.Grails:racetrack">
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
@@ -486,20 +519,22 @@
         <state line="5" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="-3.2307692" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/racetrack/Race.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.2729927" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/racetrack/Registration.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="40" selection-end="40" vertical-scroll-proportion="0.07445256">
+        <state line="19" column="2" selection-start="286" selection-end="286" vertical-scroll-proportion="-7.177778">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/racetrack/Race.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="204" selection-end="204" vertical-scroll-proportion="0.32262772">
           <folding />
         </state>
       </provider>

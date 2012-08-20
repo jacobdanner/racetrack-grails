@@ -1,7 +1,40 @@
 package racetrack
 
-class Registration {
+class Registration
+{
 
-    static constraints = {
-    }
+  String name
+  Date dateOfBirth
+  String gender
+  String address
+  String city
+  String state
+  String zipcode
+  String email
+  Date dateCreated //Note: this is a special name
+  Date lastUpdated
+
+
+  static mapping = {
+    autoTimestamp false
+  }
+  static constraints = {
+  }
+
+  def beforeInsert = {
+    // your code goes here
+  }
+
+  def beforeUpdate = {
+    // your code goes here
+  }
+
+  def beforeDelete = {
+    // your code goes here
+  }
+
+  def onLoad = {
+    // your code goes here
+  }
+
 }

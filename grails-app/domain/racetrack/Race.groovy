@@ -10,6 +10,10 @@ class Race
   BigDecimal cost
   Integer maxRunners = 100000
 
+  static mapping = {
+    sort "startDate"
+  }
+
   static constraints = {
   }
 }
