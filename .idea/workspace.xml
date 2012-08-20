@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26ee61b-4e43-485d-8af9-ebf0487a3b90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/racetrack/Race.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/racetrack/Race.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/racetrack/Registration.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/racetrack/Registration.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
     </list>
     <ignored path="racetrack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,7 +69,19 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="2" selection-start="286" selection-end="286" vertical-scroll-proportion="-7.177778">
+            <state line="23" column="46" selection-start="419" selection-end="419" vertical-scroll-proportion="-8.688889">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.properties" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages.properties">
+          <provider editor-type-id="ResourceBundle">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="46" selection-start="3754" selection-end="3754" vertical-scroll-proportion="0.9561856">
               <folding />
             </state>
           </provider>
@@ -79,7 +93,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="49" selection-start="241" selection-end="241" vertical-scroll-proportion="-7.177778">
+            <state line="18" column="66" selection-start="337" selection-end="337" vertical-scroll-proportion="-6.8">
               <folding />
             </state>
           </provider>
@@ -94,10 +108,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistrationController.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RegistrationController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/racetrack/RegistrationController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="21" selection-start="71" selection-end="71" vertical-scroll-proportion="0.062962964">
+            <state line="5" column="61" selection-start="74" selection-end="74" vertical-scroll-proportion="-3.6956522">
               <folding />
             </state>
           </provider>
@@ -116,10 +130,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/domain/racetrack/Registration.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/racetrack/Race.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/racetrack/RaceController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/racetrack/RegistrationController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/racetrack/Registration.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/racetrack/Race.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
       </list>
     </option>
   </component>
@@ -202,6 +217,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="grails-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="racetrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="racetrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="i18n" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resource Bundle 'messages'" />
+              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -557,26 +594,6 @@
         <state line="5" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="-3.2307692" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/racetrack/Registration.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="2" selection-start="286" selection-end="286" vertical-scroll-proportion="-7.177778">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/racetrack/Race.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="49" selection-start="241" selection-end="241" vertical-scroll-proportion="-7.177778">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/racetrack/RaceController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="6" selection-start="151" selection-end="151" vertical-scroll-proportion="-8.869565">
@@ -586,7 +603,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/racetrack/RegistrationController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="71" selection-end="71" vertical-scroll-proportion="0.062962964">
+        <state line="5" column="61" selection-start="74" selection-end="74" vertical-scroll-proportion="-3.6956522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/racetrack/Registration.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="46" selection-start="419" selection-end="419" vertical-scroll-proportion="-8.688889">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/racetrack/Race.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="66" selection-start="337" selection-end="337" vertical-scroll-proportion="-6.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="46" selection-start="3754" selection-end="3754" vertical-scroll-proportion="0.9561856">
           <folding />
         </state>
       </provider>

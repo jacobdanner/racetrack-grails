@@ -19,6 +19,10 @@ class Registration
     autoTimestamp false
   }
   static constraints = {
+    name(blank: false)
+    email(email: true, unique: true)
+    gender(inList: ["M","F"], nullable: false)
+
   }
 
   def beforeInsert = {
