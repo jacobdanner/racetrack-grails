@@ -7,7 +7,7 @@ class Runner
     firstName(blank: false)
     lastName(blank: false)
     dateOfBirth()
-    gender(inList: ["M", "F"], nullable: false)
+    gender(inList: ["M", "F"])
     address()
     city()
     state()
