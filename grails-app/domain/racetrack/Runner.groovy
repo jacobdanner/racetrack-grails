@@ -12,7 +12,7 @@ class Runner
     city()
     state()
     zipcode()
-    email(email: true, unique: true)
+    email(email: true)//, unique: true)
   }
 
   static hasMany = [registration: Registration]

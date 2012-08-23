@@ -7,9 +7,6 @@ class Registration
 
  static belongsTo = [race:Race, runner:Runner]
 
-  static mapping = {
-    autoTimestamp false
-  }
   static constraints = {
     race()
     runner()
