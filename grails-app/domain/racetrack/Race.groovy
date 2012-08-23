@@ -15,6 +15,13 @@ class Race
     return distance * 0.6214
   }
 
+  String toString() {
+    return "${name}, ${startDate.format('MM/dd/yyy')}"
+  }
+
+
+  static hasMany = [registrations:Registration]
+
   static mapping = {
     sort "startDate"
   }

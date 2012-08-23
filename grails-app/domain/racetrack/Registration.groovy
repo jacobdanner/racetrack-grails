@@ -15,6 +15,8 @@ class Registration
   Date lastUpdated
 
 
+  static belongsTo = [race:Race]
+
   static mapping = {
     autoTimestamp false
   }
