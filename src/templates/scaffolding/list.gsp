@@ -9,10 +9,13 @@
 	</head>
 	<body>
 		<a href="#list-${domainClass.propertyName}" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-		<div class="btn-group" role="navigation">
-			<a class="home btn btn-small" href="\${createLink(uri: '/')}"><g:message code="default.home.label"/></a>
-			<g:link class="create btn btn-primary btn-small" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link>
-		</div>
+		<g:if test="\${session?.user?.admin}">
+      <div class="btn-group">
+			  <a class="home btn btn-small" href="\${createLink(uri: '/')}"><g:message code="default.home.label"/></a>
+			  <g:link class="create btn btn-primary btn-small" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link>
+		  </div>
+    </g:if>
+
 		<div id="list-${domainClass.propertyName}" class="content scaffold-list" role="main">
 			<h1><g:message code="default.list.label" args="[entityName]" /></h1>
 			<g:if test="\${flash.message}">
