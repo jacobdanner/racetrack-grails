@@ -9,13 +9,13 @@
 	</head>
 	<body>
 		<a href="#show-${domainClass.propertyName}" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-		<div class="nav" role="navigation">
-			<ul>
-				<li><a class="home" href="\${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
-				<li><g:link class="list btn btn-small" action="list"><g:message code="default.list.label" args="[entityName]" /></g:link></li>
-				<li><g:link class="create btn btn-small" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
-			</ul>
-		</div>
+		<div class="btn-group">
+      <a class="home" href="\${createLink(uri: '/')}"><g:message code="default.home.label"/></a>
+				<g:link class="list btn btn-small" action="list"><g:message code="default.list.label" args="[entityName]" /></g:link>
+        <g:isAdmin>
+          <g:link class="create btn btn-small" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link>
+        </g:isAdmin>
+    </div>
 		<div id="show-${domainClass.propertyName}" class="content scaffold-show" role="main">
 			<h1><g:message code="default.show.label" args="[entityName]" /></h1>
 			<g:if test="\${flash.message}">
@@ -53,8 +53,10 @@
 				<fieldset class="buttons">
 					<g:hiddenField name="id" value="\${${propertyName}?.id}" />
 					<g:link class="edit btn btn-small" action="edit" id="\${${propertyName}?.id}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
-					<g:actionSubmit class="delete btn btn-small" action="delete" value="\${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('\${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
-				</fieldset>
+        <g:isAdmin>
+          <g:actionSubmit class="delete btn btn-small" action="delete" value="\${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('\${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
+        </g:isAdmin>
+        </fieldset>
 			</g:form>
 		</div>
 	</body>
