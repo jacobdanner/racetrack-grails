@@ -25,7 +25,9 @@
 <div id="grailsLogo" role="banner"><a href="http://grails.org"><img
     src="${resource(dir: 'images', file: 'grails_logo.png')}" alt="Grails"/></a></div>
 -->
+<div class="container-fluid">
 <g:layoutBody/>
+</div>
 <g:render template="/layouts/footer"/>
 
 <div id="spinner" class="spinner" style="display:none;">

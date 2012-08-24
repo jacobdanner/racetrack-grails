@@ -9,11 +9,9 @@
 	</head>
 	<body>
 		<a href="#list-${domainClass.propertyName}" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-		<div class="nav" role="navigation">
-			<ul>
-				<li><a class="home" href="\${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
-				<li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
-			</ul>
+		<div class="btn-group" role="navigation">
+			<a class="home btn btn-small" href="\${createLink(uri: '/')}"><g:message code="default.home.label"/></a>
+			<g:link class="create btn btn-primary btn-small" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link>
 		</div>
 		<div id="list-${domainClass.propertyName}" class="content scaffold-list" role="main">
 			<h1><g:message code="default.list.label" args="[entityName]" /></h1>
@@ -34,6 +32,9 @@
 					<%      } else { %>
 						<g:sortableColumn property="${p.name}" title="\${message(code: '${domainClass.propertyName}.${p.name}.label', default: '${p.naturalName}')}" />
 					<%  }   }   } %>
+          <th>
+            Edit
+          </th>
 					</tr>
 				</thead>
 				<tbody>
@@ -50,6 +51,8 @@
 					<%          } else { %>
 						<td>\${fieldValue(bean: ${propertyName}, field: "${p.name}")}</td>
 					<%  }   }   } %>
+          <td><g:link class="edit btn btn-small" action="edit" id="\${${propertyName}?.id}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
+          </td>
 					</tr>
 				</g:each>
 				</tbody>
