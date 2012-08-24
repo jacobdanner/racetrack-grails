@@ -1,4 +1,4 @@
 <footer>
   <hr />
-  &copy 2012 Racetrack, Inc.
+  &copy <g:thisYear/> Racetrack, Inc.
 </footer>
