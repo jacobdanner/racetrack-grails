@@ -15,4 +15,11 @@ class User
   {
     login
   }
+  // should not be persisted back to the DB
+  static transients = ['admin']
+
+  boolean isAdmin(){
+    return role == "admin"
+  }
+
 }
