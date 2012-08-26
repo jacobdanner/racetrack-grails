@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26ee61b-4e43-485d-8af9-ebf0487a3b90" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/racetrack/UserController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/racetrack/UserController.groovy" />
     </list>
     <ignored path="racetrack.iws" />
@@ -48,7 +49,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/grails-app/controllers/racetrack/UserController.groovy" line="33" class="racetrack.UserController" package="racetrack">
+      <breakpoint url="file://$PROJECT_DIR$/grails-app/controllers/racetrack/UserController.groovy" line="50" class="racetrack.UserController" package="racetrack">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -61,7 +62,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/grails-app/controllers/racetrack/UserController.groovy" line="61" class="racetrack.UserController" package="racetrack">
+      <breakpoint url="file://$PROJECT_DIR$/grails-app/controllers/racetrack/UserController.groovy" line="78" class="racetrack.UserController" package="racetrack">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -74,7 +75,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/grails-app/controllers/racetrack/UserController.groovy" line="66" class="racetrack.UserController" package="racetrack">
+      <breakpoint url="file://$PROJECT_DIR$/grails-app/controllers/racetrack/UserController.groovy" line="83" class="racetrack.UserController" package="racetrack">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -87,7 +88,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/grails-app/controllers/racetrack/UserController.groovy" line="79" class="racetrack.UserController" package="racetrack">
+      <breakpoint url="file://$PROJECT_DIR$/grails-app/controllers/racetrack/UserController.groovy" line="96" class="racetrack.UserController" package="racetrack">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -219,10 +220,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserController.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UserController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/racetrack/UserController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="26" selection-start="249" selection-end="249" vertical-scroll-proportion="0.23354565">
+            <state line="23" column="56" selection-start="537" selection-end="537" vertical-scroll-proportion="-22.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/templates/scaffolding/list.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="6" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.57328993">
               <folding />
             </state>
           </provider>
@@ -465,6 +475,68 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="integration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="racetrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="racetrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="racetrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="racetrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="racetrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="racetrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scaffolding" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -997,13 +1069,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/lang/groovy/grails-2.0.4/lib/org.codehaus.groovy/groovy-all/jars/groovy-all-1.8.6.jar!/org/codehaus/groovy/runtime/InvokerHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="38" selection-start="6381" selection-end="6381" vertical-scroll-proportion="-6.76">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/lang/groovy/grails-2.0.4/lib/org.codehaus.groovy/groovy-all/jars/groovy-all-1.8.6.jar!/org/codehaus/groovy/runtime/metaclass/MetaClassRegistryImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="31" selection-start="1793" selection-end="1793" vertical-scroll-proportion="-7.12">
@@ -1104,7 +1169,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/racetrack/UserController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="249" selection-end="249" vertical-scroll-proportion="0.23354565">
+        <state line="23" column="56" selection-start="537" selection-end="537" vertical-scroll-proportion="-22.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/scaffolding/list.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="6" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.57328993">
           <folding />
         </state>
       </provider>

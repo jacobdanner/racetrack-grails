@@ -9,7 +9,24 @@ class UserController
 
   // called before each action is invoked
   // & is a method pointer
-  def beforeInterceptor = [action:this.&debug]
+  def beforeInterceptor = [action:this.&auth,
+      // could also use only here
+      except:['login', 'logout', 'authenticate']]
+
+  def auth() {
+    if (!session.user)
+    {
+      redirect(controller: "user", action: "login")
+      return false
+    }
+
+    if (!session.user.admin)
+    {
+      flash.message = "Tsk tsk - admins only"
+      redirect(controller: "race", action: "list")
+      return false
+    }
+  }
 
   // method is private - can only be called by other methods
   def debug(){
