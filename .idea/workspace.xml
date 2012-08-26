@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a26ee61b-4e43-485d-8af9-ebf0487a3b90" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/racetrack/AdminFilters.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/racetrack/AdminFilters.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/racetrack-grailsPlugins.iml" afterPath="$PROJECT_DIR$/racetrack-grailsPlugins.iml" />
     </list>
     <ignored path="racetrack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -238,10 +241,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminFilters.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AdminFilters.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/racetrack/AdminFilters.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="55" selection-start="116" selection-end="116" vertical-scroll-proportion="0.11398964">
+            <state line="20" column="18" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/_header.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="24" selection-start="1551" selection-end="1551" vertical-scroll-proportion="-26.258064">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="67" selection-start="2035" selection-end="2035" vertical-scroll-proportion="0.6580311">
               <folding />
             </state>
           </provider>
@@ -260,8 +290,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/unit/racetrack/RaceTests.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/utils/UnderscoreCodec.groovy" />
         <option value="$PROJECT_DIR$/grails-app/utils/SHACodec.groovy" />
         <option value="$PROJECT_DIR$/test/unit/racetrack/UserTests.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/_header.gsp" />
@@ -276,6 +304,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/grails-app/controllers/racetrack/UserController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/racetrack/AdminFilters.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
       </list>
     </option>
   </component>
@@ -1100,27 +1130,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/lang/groovy/grails-2.0.4/lib/org.codehaus.groovy/groovy-all/jars/groovy-all-1.8.6.jar!/org/codehaus/groovy/reflection/ClassInfo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="57" selection-start="2047" selection-end="2047" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/lang/groovy/groovy-2.0.1/src/main/org/codehaus/groovy/runtime/callsite/AbstractCallSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="18" selection-start="4128" selection-end="4128" vertical-scroll-proportion="0.31985942">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/lang/groovy/groovy-2.0.1/src/main/groovy/lang/GroovySystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="36" selection-start="2201" selection-end="2201" vertical-scroll-proportion="0.31985942">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/lang/jdk1.7.0_05/src.zip!/java/lang/ref/Reference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="176" column="0" selection-start="5923" selection-end="5923" vertical-scroll-proportion="0.31985942">
@@ -1207,7 +1216,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/racetrack/AdminFilters.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="55" selection-start="116" selection-end="116" vertical-scroll-proportion="0.11398964">
+        <state line="20" column="18" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/_header.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="24" selection-start="1551" selection-end="1551" vertical-scroll-proportion="-26.258064">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="67" selection-start="2035" selection-end="2035" vertical-scroll-proportion="0.6580311">
           <folding />
         </state>
       </provider>
@@ -1220,7 +1250,7 @@
           <value>
             <GrailsSettings>
               <option name="buildConfigCrc" value="-1876667702" />
-              <option name="pluginDependenciesCrc" value="1745994100" />
+              <option name="pluginDependenciesCrc" value="1630975457" />
               <option name="properties">
                 <map>
                   <entry key="grails.global.plugins.dir" value="C:\Users\jacobd\.grails\2.0.4\global-plugins" />
