@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a26ee61b-4e43-485d-8af9-ebf0487a3b90" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/racetrack/UserController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/racetrack/UserController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/racetrack/AdminFilters.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/racetrack/AdminFilters.groovy" />
     </list>
     <ignored path="racetrack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -229,10 +229,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.gsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="list.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/templates/scaffolding/list.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="6" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.57328993">
+            <state line="30" column="6" selection-start="1367" selection-end="1367" vertical-scroll-proportion="-21.290323">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminFilters.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/racetrack/AdminFilters.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="55" selection-start="116" selection-end="116" vertical-scroll-proportion="0.11398964">
               <folding />
             </state>
           </provider>
@@ -251,7 +260,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/templates/scaffolding/list.gsp" />
         <option value="$PROJECT_DIR$/test/unit/racetrack/RaceTests.groovy" />
         <option value="$PROJECT_DIR$/grails-app/utils/UnderscoreCodec.groovy" />
         <option value="$PROJECT_DIR$/grails-app/utils/SHACodec.groovy" />
@@ -267,6 +275,7 @@
         <option value="$PROJECT_DIR$/grails-app/taglib/racetrack/LoginTagLib.groovy" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/grails-app/controllers/racetrack/UserController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/racetrack/AdminFilters.groovy" />
       </list>
     </option>
   </component>
@@ -720,6 +729,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="racetrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="racetrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="racetrack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value=".settings" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1069,13 +1100,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/lang/groovy/grails-2.0.4/lib/org.codehaus.groovy/groovy-all/jars/groovy-all-1.8.6.jar!/org/codehaus/groovy/runtime/metaclass/MetaClassRegistryImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="31" selection-start="1793" selection-end="1793" vertical-scroll-proportion="-7.12">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/lang/groovy/grails-2.0.4/lib/org.codehaus.groovy/groovy-all/jars/groovy-all-1.8.6.jar!/org/codehaus/groovy/reflection/ClassInfo.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="57" selection-start="2047" selection-end="2047" vertical-scroll-proportion="0.0">
@@ -1176,7 +1200,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/scaffolding/list.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="6" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.57328993">
+        <state line="30" column="6" selection-start="1367" selection-end="1367" vertical-scroll-proportion="-21.290323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/racetrack/AdminFilters.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="55" selection-start="116" selection-end="116" vertical-scroll-proportion="0.11398964">
           <folding />
         </state>
       </provider>
