@@ -5,8 +5,9 @@ class User
   String login
   String password
   String role = "user"
+
   static constraints = {
-    login(blank: false, ullable: false, unique: true)
+    login(blank: false, nullable: false, unique: true)
     password(blank: false, password: true)
     role(inList: ["admin", "user"])
   }
@@ -14,6 +15,13 @@ class User
   String toString()
   {
     login
+  }
+
+  def beforeInsert = {
+    // hardly secure, but
+    // this is just an example for now
+    password.encodeAsSHA()
+
   }
   // should not be persisted back to the DB
   static transients = ['admin']

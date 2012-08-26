@@ -26,9 +26,9 @@
 					<tr>
 					
 						<g:sortableColumn property="login" title="${message(code: 'user.login.label', default: 'Login')}" />
-					
+					  <g:isSessionUserAdmin>
 						<g:sortableColumn property="password" title="${message(code: 'user.password.label', default: 'Password')}" />
-					
+            </g:isSessionUserAdmin>
 						<g:sortableColumn property="role" title="${message(code: 'user.role.label', default: 'Role')}" />
 					
           <th>
@@ -40,13 +40,21 @@
 				<g:each in="${userInstanceList}" status="i" var="userInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${userInstance.id}">${fieldValue(bean: userInstance, field: "login")}</g:link></td>
-					
+						<td>
+              <g:isSessionUserAdmin>
+              <g:link action="show" id="${userInstance.id}">${fieldValue(bean: userInstance, field: "login")}</g:link>
+              </g:isSessionUserAdmin>
+            </td>
+
+            <g:isSessionUserAdmin>
 						<td>${fieldValue(bean: userInstance, field: "password")}</td>
-					
+            </g:isSessionUserAdmin>
 						<td>${fieldValue(bean: userInstance, field: "role")}</td>
 					
-          <td><g:link class="edit btn btn-small" action="edit" id="${userInstance?.id}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
+          <td>
+            <g:isSessionUserAdmin>
+            <g:link class="edit btn btn-small" action="edit" id="${userInstance?.id}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
+            </g:isSessionUserAdmin>
           </td>
 					</tr>
 				</g:each>

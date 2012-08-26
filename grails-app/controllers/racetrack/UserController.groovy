@@ -10,7 +10,7 @@ class UserController
   def login = {}
 
   def logout = {
-    flash.message = "Goodbye ${session.user.login}"
+    flash.message = "Goodbye ${session.user}"
     session.user = null;
     redirect(action: "login")
   }
@@ -20,7 +20,8 @@ class UserController
     // and/or to query several fields,
     // nice metaprogramming feature
     // grails.org/DomainClass+Dynamic+Methods
-    def user = User.findByLoginAndPassword(params.login, params.password)
+    def user = User.findByLoginAndPassword(params.login,
+        params.password.encodeAsSHA())
 
     if (user)
     {

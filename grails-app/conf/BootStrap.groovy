@@ -13,7 +13,7 @@ class BootStrap
       case "development":
 
         def admin = new User(login:"admin",
-            password:"wordpass",
+            password:"admin".encodeAsSHA(),
             role: "admin")
         admin.save()
         if(admin.hasErrors())
@@ -22,7 +22,7 @@ class BootStrap
         }
 
         def jdoe = new User(login: "jdoe",
-            password: "password",
+            password: "jdoe".encodeAsSHA(),
             role: "user")
 
         jdoe.save()

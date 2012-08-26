@@ -10,6 +10,7 @@
 	<g:textField name="login" required="" value="${userInstance?.login}"/>
 </div>
 
+<g:isSessionUserAdmin>
 <div class="fieldcontain ${hasErrors(bean: userInstance, field: 'password', 'error')} required">
 	<label for="password">
 		<g:message code="user.password.label" default="Password" />
@@ -17,6 +18,7 @@
 	</label>
 	<g:field type="password" name="password" required="" value="${userInstance?.password}"/>
 </div>
+</g:isSessionUserAdmin>
 
 <div class="fieldcontain ${hasErrors(bean: userInstance, field: 'role', 'error')} ">
 	<label for="role">

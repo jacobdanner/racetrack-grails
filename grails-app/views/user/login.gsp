@@ -18,7 +18,7 @@
         <tbody>
         <tr class="prop">
           <td valign="top" class="name">
-            <label for="login">Login:</label>
+            <label for="login"><g:message code="user.login.label" default="Login" /></label>
           </td>
           <td valign="top">
             <input type="text" id="login" name="login"/>
@@ -26,7 +26,7 @@
         </tr>
         <tr class="prop">
           <td valign="top" class="name">
-            <label for="password">Password:</label>
+            <label for="password"><g:message code="user.password.label" default="Password" /></label>
           </td>
           <td valign="top">
             <input type="password"

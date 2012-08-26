@@ -2,7 +2,7 @@ package racetrack
 
 class AdminTagLib {
 
-  def isAdmin = {params, body ->
+  def isSessionUserAdmin = {params, body ->
     if(session?.user?.admin)
       out << body()
   }
