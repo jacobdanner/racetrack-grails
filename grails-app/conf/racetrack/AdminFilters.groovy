@@ -1,7 +1,7 @@
 package racetrack
 
 class AdminFilters {
-
+     // sooo many auth plugins we could have used
     def filters = {
       // filter methods for admin only access via regex
         adminOnly(controller:'*', action:'(create|edit|update|delete|save)') {
