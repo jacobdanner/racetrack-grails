@@ -7,8 +7,19 @@ class UserController
 
   static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
 
+  // called before each action is invoked
+  // & is a method pointer
+  def beforeInterceptor = [action:this.&debug]
+
+  // method is private - can only be called by other methods
+  def debug(){
+    println "DEBUG: ${actionUri} called."
+    println "DEBUG: ${params}"
+  }
+
   def login = {}
 
+  // closure - exposed to the end user
   def logout = {
     flash.message = "Goodbye ${session.user}"
     session.user = null;
