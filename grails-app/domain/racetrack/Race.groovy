@@ -21,6 +21,8 @@ class Race
 
 
   static hasMany = [registrations:Registration]
+  // uses searchable plugin to make this model searchable
+  static searchable = true
 
   static mapping = {
     sort "startDate"

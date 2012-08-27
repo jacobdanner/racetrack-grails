@@ -14,9 +14,13 @@
         <ul class="nav">
           <li><a href="#tbd-about">About</a></li>
           <li><a href="#tbd-contact">Contact</a></li>
+          
         </ul>
       </div>
-
+      <div class="header">
+        <g:render template="/layouts/raceSearch"/>
+      </div>
+      
       <div class="nav-collapse">
         <ul class="nav">
           <!-- add login stuffs here -->

@@ -1,0 +1,10 @@
+.race {
+  padding: 1em;
+}
+.race-details {
+  padding-left: 2em;
+}
+.question {
+  font-style: italic;
+  font-weight: bold;
+}
