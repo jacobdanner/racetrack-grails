@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta name="layout" content="main"/>
-		<title>Welcome to Racetrack</title>
+		<title>Racetrack - admin</title>
 		<style type="text/css" media="screen">
 			#status {
 				background-color: #eee;
@@ -103,7 +103,7 @@
 			</ul>
 		</div>
 		<div id="page-body" role="main">
-			<h1>Welcome to Grails</h1>
+			<h1>Racetrack - Admin</h1>
 			<div id="controller-list" role="navigation">
 				<h2>Available Controllers:</h2>
 				<ul>
