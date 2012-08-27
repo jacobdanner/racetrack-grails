@@ -55,7 +55,13 @@ class UserController
     {
       session.user = user
       flash.message = "Hello ${user.login}!"
-      redirect(controller: "race", action: "list")
+      // redirect admin user to admin/index page
+      if (user.admin)
+      {
+        redirect(controller: "admin", action: "index")
+      } else {
+        redirect(controller: "race", action: "list")
+      }
     } else
     {
       flash.message = "Sorry, ${params.login}. Please try again."
