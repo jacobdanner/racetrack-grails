@@ -1,14 +1,8 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: jacobd
---%>
-
-<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
-  <meta content="text/html; charset=UTF-8"
-        http-equiv="Content-Type"/>
+  <meta content="main" name="layout"/>
   <title>RaceTrack</title>
+  <link rel="stylesheet" href="${resource(dir: 'css', file: 'custom.css')}" type="text/css">
 </head>
 
 <body>

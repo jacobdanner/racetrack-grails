@@ -17,7 +17,7 @@
           
         </ul>
       </div>
-      <div class="header">
+      <div class="nav">
         <g:render template="/layouts/raceSearch"/>
       </div>
       
