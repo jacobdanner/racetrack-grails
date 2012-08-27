@@ -107,7 +107,9 @@ class BootStrap
 
         break
 
-      case "production": break
+      case "production":
+        // seed production data here
+        break
     }
   }
   def destroy = {
